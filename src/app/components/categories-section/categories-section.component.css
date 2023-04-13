@@ -3,11 +3,33 @@
    justify-content: center;
    margin-bottom: 50px;
 }
-.title:hover{
+
+.title {
+    position: relative;
+  }
+  
+.title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.2s ease-in-out;
+  }
+  
+  .title:hover::after {
+    width: 100%;
+  }
+  
+
+/* .title:hover{
     text-decoration: underline;
-}
+} */
 
 .cat-grid{
     margin: 10px;
     padding: 40px;
 }
+
