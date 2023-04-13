@@ -5,3 +5,15 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.nav{
+    color: white;
+}
+
+.navbar-nav li a {
+    color: white;
+  }
+
+  #brand{
+    color: white;
+}
