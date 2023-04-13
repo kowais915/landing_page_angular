@@ -1,0 +1,13 @@
+.categories{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+.title:hover{
+    text-decoration: underline;
+}
+
+.cat-grid{
+    margin: 10px;
+    padding: 40px;
+}
