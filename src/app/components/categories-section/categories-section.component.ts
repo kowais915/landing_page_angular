@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./categories-section.component.css']
 })
 export class CategoriesSectionComponent {
+  addCategory: boolean = false;
   products: number = 10;
+
+  incProd(){
+    this.products++;
+  }
+
+  decProd(){
+    this.products--;
+  }
 }

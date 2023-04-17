@@ -1,5 +1,7 @@
 <div class="categories">
     <h1 class="title">Products Categories ({{products}})</h1>
+    <button class="btn btn-primary" [disabled]=" addCategory" (click)="incProd()">Add Category</button>
+    <button class="btn btn-danger" [disabled]=" addCategory" (click)="decProd()">Remove Category</button>
 </div>
 
 <div class="cat-grid">
