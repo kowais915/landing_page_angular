@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CategoriesSectionComponent } from './components/categories-section/categories-section.component';
 import { SaleAlertComponent } from './components/sale-alert/sale-alert.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SaleAlertComponent } from './components/sale-alert/sale-alert.component
     NavbarComponent,
     CarouselComponent,
     CategoriesSectionComponent,
-    SaleAlertComponent
+    SaleAlertComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
