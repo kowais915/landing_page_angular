@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./categories-section.component.css']
 })
 export class CategoriesSectionComponent {
-
+  products: number = 10;
 }
